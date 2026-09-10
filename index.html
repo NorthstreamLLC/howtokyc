@@ -31,7 +31,7 @@
         "name": "How to Complete Roobet KYC — Eligibility and Verification Guide",
         "url": "https://www.howtokyc.com/",
         "description": "A responsible guide to regional eligibility, accurate account details, official KYC and document security.",
-        "dateModified": "2026-08-25",
+        "dateModified": "2026-09-09",
         "inLanguage": "en"
       },
       {
@@ -366,6 +366,16 @@
     .final h2 em { font-style: normal; color: var(--gold); }
     .final p { color: var(--muted); max-width: 380px; margin: 0 auto 32px; font-size: 0.88rem; }
 
+    /* ── SUPPORTING GUIDES ── */
+    .guide-cluster { padding: 90px 24px; border-top: 1px solid var(--border); }
+    .cluster-inner { max-width: 1040px; margin: 0 auto; }
+    .cluster-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 32px; }
+    .cluster-card { display: block; padding: 24px; background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; text-decoration: none; transition: transform .18s, border-color .18s; }
+    .cluster-card:hover { transform: translateY(-3px); border-color: rgba(245,197,24,.35); }
+    .cluster-card span { color: var(--gold); font-size: .66rem; text-transform: uppercase; letter-spacing: 1.7px; font-weight: 800; }
+    .cluster-card h3 { color: var(--white); font-size: 1.05rem; margin: 8px 0; }
+    .cluster-card p { color: var(--muted); font-size: .8rem; line-height: 1.55; }
+
     /* ── FOOTER ── */
     footer { background: var(--bg); border-top: 1px solid var(--border); padding: 36px 24px 26px; text-align: center; }
     .footer-logo { font-size: 0.9rem; font-weight: 800; color: var(--white); margin-bottom: 16px; display: block; }
@@ -386,6 +396,7 @@
       .r-divider { display: none; }
       .r-stat { border-bottom: 1px solid var(--border); }
       .r-stat:nth-last-child(-n+2):not(.r-divider) { border-bottom: none; }
+      .cluster-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -529,6 +540,20 @@
   </div>
 </div>
 
+<!-- SUPPORTING GUIDES -->
+<section class="guide-cluster">
+  <div class="cluster-inner">
+    <p class="eyebrow">KYC resource center</p>
+    <h2 class="sec-title">Prepare, submit and <em>troubleshoot safely</em></h2>
+    <p class="sec-note">Independent guides based on currently published official instructions. Always confirm requirements inside your own account.</p>
+    <div class="cluster-grid">
+      <a class="cluster-card" href="/roobet-verification-documents.html"><span>Document checklist</span><h3>Roobet verification documents</h3><p>Accepted ID categories, readable uploads, document safety and common preparation mistakes.</p></a>
+      <a class="cluster-card" href="/roobet-kyc-verification-time.html"><span>Review timeline</span><h3>How long does verification take?</h3><p>What manual review means, what may delay it and when to use official support.</p></a>
+      <a class="cluster-card" href="/roobet-verification-problems.html"><span>Troubleshooting</span><h3>Roobet verification problems</h3><p>Work through upload errors, mismatched details, restrictions and impersonation risks.</p></a>
+    </div>
+  </div>
+</section>
+
 <!-- ACCOUNT HELP -->
 <div class="vip-section">
   <div class="vip-inner">
@@ -572,7 +597,7 @@
 <div class="faq">
   <p class="eyebrow">Questions</p>
   <h2 class="sec-title" style="margin-bottom:36px;">FAQ</h2>
-  <p class="sec-note" style="margin-bottom:24px;">Official sources last checked 25 August 2026: <a href="https://help.roobet.com/en/articles/13686927-roobet-restricted-regions" target="_blank" rel="noopener noreferrer">Roobet Restricted Regions</a> and <a href="https://help.roobet.com/en/articles/14709132-level-2-verification" target="_blank" rel="noopener noreferrer">Level 2 Verification</a>. Policies can change, so recheck them before registering.</p>
+  <p class="sec-note" style="margin-bottom:24px;">Official sources last checked 9 September 2026: <a href="https://help.roobet.com/en/articles/13686927-roobet-restricted-regions" target="_blank" rel="noopener noreferrer">Roobet Restricted Regions</a> and <a href="https://help.roobet.com/en/articles/14709132-level-2-verification" target="_blank" rel="noopener noreferrer">Level 2 Verification</a>. Policies can change, so recheck them before registering.</p>
   <div class="faq-list">
     <details class="fi"><summary>Can I use a VPN to access Roobet from a restricted region?</summary><div class="fb">No. Do not use a VPN, false address or another person's identity to bypass geographic restrictions. Check the <a href="https://help.roobet.com/en/articles/13686927-roobet-restricted-regions" target="_blank" rel="noopener noreferrer">official restricted-regions policy</a> before registering.</div></details>
     <details class="fi"><summary>What documents can Roobet request?</summary><div class="fb">Roobet's official Level 2 article lists a passport, driving licence or government-issued identification document. Requirements can vary by account and compliance review.</div></details>
@@ -596,6 +621,9 @@
   <span class="footer-logo">How To <em>KYC</em></span>
   <div class="footer-links">
     <a href="/#guide">Guide</a>
+    <a href="/roobet-verification-documents.html">Documents</a>
+    <a href="/roobet-kyc-verification-time.html">Review Time</a>
+    <a href="/roobet-verification-problems.html">Troubleshooting</a>
     <a href="https://roobet.com/?ref=elite" target="_blank" rel="nofollow noopener">Roobet</a>
     <a href="https://t.me/slotessentialsVIP" target="_blank" rel="noopener">Telegram VIP</a>
     <a href="https://discord.gg/FWzUJTN8g" target="_blank" rel="noopener">Discord</a>
